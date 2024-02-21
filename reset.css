@@ -1,0 +1,100 @@
+/* RESET DE CSS PARA ELIMINAR LOS ESTILOS PREDETERMINADOS QUE NOS 
+DA HTML CUANDO CREAMOS EL DOCUMENTO*/
+
+/* ====================================================================
+   Box Sizing Reset:
+   ==================================================================== */
+   *,
+   *::before,
+   *::after {
+       box-sizing: border-box;
+   }
+   
+   /* ====================================================================
+      Normalización de Márgenes y Relleno:
+      ==================================================================== */
+   body,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p,
+   figure,
+   blockquote,
+   dl,
+   dd,
+   ol,
+   ul {
+       margin: 0;
+       padding: 0;
+   }
+   
+   /* ====================================================================
+      Normalización de Tipografía:
+      ==================================================================== */
+   body,
+   button,
+   input,
+   select,
+   textarea {
+       font-family: 'Arial', sans-serif; /* Especifica la fuente predeterminada */
+       font-size: 16px; /* Tamaño de fuente base */
+       line-height: 1.5; /* Altura de línea recomendada */
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       font-size: inherit; /* Hereda el tamaño de fuente del elemento padre */
+       font-weight: bold; /* Establece el peso de la fuente a negrita */
+   }
+   
+   /* ====================================================================
+      Normalización de Estilos de Lista:
+      ==================================================================== */
+   ol,
+   ul {
+       list-style: none; /* Elimina los estilos de lista predeterminados */
+   }
+   
+   /* ====================================================================
+      Normalización de Estilos de Enlace:
+      ==================================================================== */
+   a {
+       text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+       color: inherit; /* Hereda el color del texto del elemento padre */
+   }
+   
+   /* ====================================================================
+      Normalización de Tablas:
+      ==================================================================== */
+   table {
+       border-collapse: collapse; /* Evita los márgenes entre celdas de tabla */
+       width: 100%; /* Hace que las tablas ocupen el ancho completo de su contenedor */
+   }
+   
+   th,
+   td {
+       padding: 8px; /* Agrega relleno a las celdas de la tabla para mayor legibilidad */
+       text-align: left; /* Alinea el texto a la izquierda en las celdas de la tabla */
+       border: 1px solid #ddd; /* Agrega un borde delgado a las celdas de la tabla */
+   }
+   
+   /* ====================================================================
+      Normalización de Imágenes:
+      ==================================================================== */
+   img {
+       max-width: 100%; /* Hace que las imágenes no superen su contenedor */
+       height: auto; /* Evita la distorsión de la relación de aspecto de las imágenes */
+   }
+   
+   /* ====================================================================
+      Otros Estilos de Reinicio según sea necesario...
+      ==================================================================== */
+   
+   
