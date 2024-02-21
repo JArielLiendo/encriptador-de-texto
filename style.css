@@ -6,3 +6,206 @@ body{
     background-size: cover;
 
 }
+
+.logo{
+    display: flex;
+    justify-content: start;
+    padding: 3%;
+    width: 100%;
+}
+
+.logo img{
+    width: 80%;
+    background: rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
+    margin-left: 4.5%;
+    
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.panel-de-textos{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.cuadro-ingreso-texto, .cuadro-texto-resultado{
+    background: rgba(255, 255, 255, 0.562);
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 5px rgb(201, 110, 7);
+    border-radius: 10px;
+    
+}
+
+.area-de-texto-encriptar, .area-de-texto-resultado{
+    background-color: transparent;
+    border: none;
+    resize: initial;
+    outline: none;
+    width: 90%;
+    height: 70%;
+    font-size: 2em;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.mensaje-alerta, #mensaje-resultado{
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+
+.mensaje-alerta img{
+    width: 1.2em;
+}
+
+.botones{
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 20px;
+}
+
+.botones-enc-des{
+    font-family: 'Patua One', serif, Arial, Helvetica, sans-serif;
+    width: 40%;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(16, 31, 168, 0.747);
+
+}
+
+.botones-enc-des:hover, .boton-copiar:hover{
+    background: rgb(16, 31, 168);
+    cursor: pointer;
+}
+
+
+.boton-copiar{
+    font-family: 'Patua One', serif, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(16, 31, 168, 0.747);
+}
+
+
+
+footer {
+    width: 100%;
+    height: 110px;
+    background: url(imagenes/banner\ 2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 3%;
+}
+
+footer div{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+footer img{
+    width: 1em;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .panel-de-textos{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+    .cuadro-ingreso-texto{
+        width: 80%;
+        margin: 8%;
+        height: 550px;
+    }
+    
+    .cuadro-texto-resultado{
+        width: 80%;
+        margin: 8%;
+        height: 400px;
+    }
+
+    .area-de-texto-encriptar, .area-de-texto-resultado{
+        height: 70%;
+    }
+
+    .botones{
+        flex-wrap: wrap;
+    }
+
+    .botones-enc-des, .boton-copiar{
+        margin-bottom: 2%;
+        width: 70%;
+        font-size: 1.2em;
+    }
+    
+    
+    footer{
+        background-size: cover;
+        font-size: 1em;
+    }
+    footer div{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .panel-de-textos{
+        flex-wrap: wrap;
+        height: auto;
+    }
+   
+    .cuadro-ingreso-texto, .cuadro-texto-resultado{
+        width: 90%;
+      margin: 10px auto;
+    }
+    
+    ::placeholder{
+        color: rgb(37, 8, 117)
+    }
+    
+    .botones-enc-des{
+        font-size: 1.2em;
+    }
+
+    .boton-copiar{
+        width: 60%;
+        font-size: 1.2em;
+        margin-top: 3%;
+    }
+    
+    footer{
+        height: 95px;
+        padding: 40px 0 40px 0;
+        margin-top: 8%;
+    }
+
+}
+
