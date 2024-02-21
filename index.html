@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="logo">
+        <h1>
+            <img src="imagenes/aluraoracle.png" alt="Logo">
+        </h1>
+    </header>
+    
+    <main class="panel-de-textos">
+        <section class="cuadro-ingreso-texto">
+
+            <textarea class="area-de-texto-encriptar" name="ingreso-texto" id="ingreso-texto" placeholder="Ingrese su texto" autofocus></textarea>
+
+            <div class="mensaje-alerta">
+                <p id="alerta"><img src="imagenes/rojo.png" alt=""> Solo letras minúsculas y sin acentos</p>
+            </div>
+            
+            <div class="botones">
+                <button class="botones-enc-des" onclick="" id="btn-encriptar">Encriptar</button>
+                <button class="botones-enc-des" onclick="" id="btn-desencriptar">Desencriptar</button>    
+            </div>
+
+        </section>
+
+         <section class="cuadro-texto-resultado">
+            
+            <textarea class="area-de-texto-resultado" name="resultado" id="resultado" ></textarea>
+
+            <div>
+                <p class="" id="mensaje-resultado">Resultado</p>
+            </div>
+
+            <div class="botones">
+                <button class="boton-copiar" id="btn-copiar" onclick="">Copiar</button>
+            </div>
+
+         </section>
+
+    </main>
+
+
+    <footer>
+        <div>
+            <p>&copy Copyrigth Jorge Ariel Liendo</p>
+            <a href="https://github.com/JArielLiendo" target="_blank"><img src="imagenes/githubBlanco.png" alt="Logo Git Hub">Git Hub</a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
