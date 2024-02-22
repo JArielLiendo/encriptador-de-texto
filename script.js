@@ -113,7 +113,7 @@ function copiar (){
 function mensajeInformativo(texto){
 
   mensajeInformativoResultado.innerHTML = texto;
-  setTimeout(cambiarTexto, 1500, mensajeInformativoResultado)
+  setTimeout(cambiarTexto, 2000, mensajeInformativoResultado)
 
   return;
 };
