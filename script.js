@@ -57,6 +57,8 @@ function encriptar(){
 function desencriptar(){
 
   let texto = document.getElementById("ingreso-texto").value;
+  alerta.style.color= 'black';
+
   if(texto ==''){
     mensajeInformativo('Ingrese un mensaje');
     return;
