@@ -34,7 +34,7 @@
           </ul>
       </div>
 
-### Adicionale al proyecto base 
+### Adicionales al proyecto base 
 
 ⭐**Hacer que el diseño sea responsivo**
 
