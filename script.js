@@ -46,6 +46,7 @@ function encriptar(){
           fraseEn[i]=texto[i];
         };
       };
+      scrollResultado();
       mensajeInformativo('El mensaje fue encriptado');
       return fraseEncriptada.value=fraseEn.join("");
     };
@@ -90,6 +91,7 @@ function desencriptar(){
         }
         
     })
+    scrollResultado();
     mensajeInformativo( 'El mensaje fue desencriptado');
     return fraseDesencriptada.value = texto;
   };
@@ -122,4 +124,10 @@ function mensajeInformativo(texto){
 // Función para cambiar texto
 function cambiarTexto(elemento) {
    elemento.innerHTML = 'Resultado';
+}
+
+//Ejecutar vinculo
+function scrollResultado() {
+  var elementoDestino = document.getElementById('resultado');
+  elementoDestino.scrollIntoView();
 }
