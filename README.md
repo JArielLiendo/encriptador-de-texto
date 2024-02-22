@@ -4,7 +4,7 @@
   <img src='imagenes/aluraoracle.png' width='50%'>
 </div>
 
-<h2>📃 Introduccion</h2>
+<h2>📃 Introducción</h2>
 
   <p>
     Este es un challenge para poner en practica los conocimientos adquiridos en el curso de "Principiante de programación",
@@ -38,7 +38,7 @@
 
 ⭐**Hacer que el diseño sea responsivo**
 
-⭐**Boton de copiado del resultado al portapapeles**
+⭐**Botón de copiado del resultado al portapapeles**
 
 ### Conclusión:
 
